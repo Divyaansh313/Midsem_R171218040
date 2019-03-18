@@ -22,3 +22,9 @@ class table
     }
 		}
 };
+int main()
+	{
+	table tt;
+	tt.display();
+	return 0;
+        }

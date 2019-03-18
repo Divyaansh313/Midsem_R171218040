@@ -8,7 +8,7 @@ class convert
 		void binary()
 		{
 			cout<<"Enter the decimal number"<<endl;
-			cin>>num;
+			cin>>num;  //enter an integral value
 			for(i=0;num>0;i++)
 			{
 				temp[i]=num%2;
