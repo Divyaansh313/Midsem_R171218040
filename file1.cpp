@@ -17,7 +17,7 @@ class convert
 		    }
 		    j=i-1;
 		    i=0;
-		    while(j>=0)
+		    while(j>=0)//using while loop
 		    {
 		    	cout<<temp[j]<<"  ";
 		    	i++;j--;
@@ -26,7 +26,6 @@ class convert
 		}
 };
 int main()
-	int main()
 {
 	convert deci;
 	deci.binary();

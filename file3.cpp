@@ -3,7 +3,7 @@ using namespace std;
 class table
 {
  private:
- 	int x,y,z;
+ 	int x,y,z;//taking three variables x,y and z
  	public:
  		void display()
  		{

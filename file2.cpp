@@ -13,7 +13,7 @@ class Fact
 			cout<<"Factorial is: "<<fct<<endl;
 				
 		}
-		int factorial(int n)
+		int factorial(int n)//using if else
 		{
 			if(n>1)
 				return (n * factorial(n-1));
@@ -22,7 +22,7 @@ class Fact
 		}
 		~Fact()
 		{
-			cout<<"Bye bye"<<endl;
+			cout<<"Bye bye"<<endl;//using destructor
 		}
 };
 int main()
