@@ -25,3 +25,11 @@ class convert
 			
 		}
 };
+int main()
+	int main()
+{
+	convert deci;
+	deci.binary();
+
+	return 0;
+}

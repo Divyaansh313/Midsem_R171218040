@@ -25,3 +25,11 @@ class Fact
 			cout<<"Bye bye"<<endl;
 		}
 };
+int main()
+{
+		int num;
+		cout<<"enter value:"<<endl;
+		cin>>num;
+		Fact f1 = Fact(num);
+		return 0;
+}
